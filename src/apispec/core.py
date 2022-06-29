@@ -21,7 +21,7 @@ if typing.TYPE_CHECKING:
     from .plugin import BasePlugin
 
 
-VALID_METHODS_OPENAPI_V2 = ["get", "post", "put", "patch", "delete", "head", "options"]
+VALID_METHODS_OPENAPI_V2 = ["get", "post", "put", "patch", "delete", "head", "options", "list"]
 
 VALID_METHODS_OPENAPI_V3 = VALID_METHODS_OPENAPI_V2 + ["trace"]
 
